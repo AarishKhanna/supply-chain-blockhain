@@ -12,5 +12,6 @@
     "test": "truffle test"
   },
   "author": "",
+  "homepage": "https://myusername.github.io/my-app",
   "license": "MIT"
 }
