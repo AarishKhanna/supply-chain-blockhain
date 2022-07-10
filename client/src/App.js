@@ -56,7 +56,7 @@ class App extends Component {
   listenToPaymentEvent = () => {
     let self = this;
     this.itemManager.events.SupplyChainStep().on("data", async function(evt) {
-    if(evt.returnValues._step === 1) {
+    if(evt.returnValues._step == 1) {
       let item = await self.itemManager.methods.items(evt.returnValues._itemIndex).call();
     
     
